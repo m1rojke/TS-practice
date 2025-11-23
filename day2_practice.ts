@@ -21,3 +21,11 @@ function showMessage(text: string, author?: string): void {
 // Задача 5
 let isEven: (n: number) => boolean;
 isEven = (n) => n % 2 === 0;
+
+console.log(
+  sum(3, 2),
+  hello("Maksim"),
+  joinStrings(["Яблоко", "Груша", "Арбуз"]),
+  showMessage("Я вернусь!"),
+  isEven(2)
+);
