@@ -10,7 +10,7 @@ function hello(name: string): string {
 
 // Задача 3
 function joinStrings(arr: string[]): string {
-  return arr.toString();
+  return arr.join(", ");
 }
 
 // Задача 4
