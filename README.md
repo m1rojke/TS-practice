@@ -49,6 +49,16 @@
 - custom type guard функции value is Type
 - readonly модификатор
 
+### День 7: Utility типы и Mapped Types
+- Partial<T> — все свойства необязательные (?)
+- Required<T> — все свойства обязательные (убрать ?)
+- Pick<T, K> — выбрать конкретные свойства
+- Omit<T, K> — исключить конкретные свойства
+- Record<K, T> — создать объект с определёнными ключами
+- Readonly<T> — сделать все свойства readonly (только для чтения)
+- keyof T — получить все ключи типа
+- Mapped Types — создать свой трансформатор типов
+
 ## Запуск примеров
 - tsc day1_practice.ts      // Создаст day1_practice.js
 - node day1_practice.js     // Запустит код
